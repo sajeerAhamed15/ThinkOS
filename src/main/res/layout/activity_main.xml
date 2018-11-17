@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="click1"
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="1 - Message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="click2"
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="2 - Alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="click3"
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="3 - Music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="click4"
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="4 - Calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="click5"
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="5 - Help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="6 - Youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="7 - Quora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="8 - Google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="9 - Gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="10 - Settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
