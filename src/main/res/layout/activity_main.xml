@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back_3"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -12,94 +13,82 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
+            android:onClick="message"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageView
-                android:onClick="click1"
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/mes_2" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="1 - Message"
+                android:text="1 Message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="alarm"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageView
-                android:onClick="click2"
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/alr_2" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="2 - Alarm"
+                android:text="2 Alarm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="music"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageView
-                android:onClick="click3"
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/music_1" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="3 - Music"
+                android:text="3 Music"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="gallery"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageView
-                android:onClick="click4"
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/gal_1" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="4 - Calc"
+                android:text="4 Gallery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:onClick="click5"
-                android:layout_width="@dimen/icon_dim"
-                android:layout_height="@dimen/icon_dim"
-                android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
-            <TextView
-                android:layout_marginTop="-3dp"
-                android:layout_gravity="center"
-                android:text="5 - Help"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
+
     </LinearLayout>
 
 
@@ -109,6 +98,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
+            android:onClick="youtube"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -116,16 +107,18 @@
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/youtube" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="6 - Youtube"
+                android:text="5 Youtube"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="facebook"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -133,16 +126,18 @@
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/fb" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="7 - Quora"
+                android:text="6 Facebook"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="chrome"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -150,16 +145,18 @@
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/chrome" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="8 - Google"
+                android:text="7 Chrome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:onClick="twitter"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -167,16 +164,26 @@
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/twi" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="9 - Gallery"
+                android:text="8 Twitter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <LinearLayout
+            android:onClick="settings"
+            android:gravity="center"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -184,17 +191,64 @@
                 android:layout_width="@dimen/icon_dim"
                 android:layout_height="@dimen/icon_dim"
                 android:layout_margin="@dimen/icon_margin"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/set_1" />
             <TextView
                 android:layout_marginTop="-3dp"
                 android:layout_gravity="center"
-                android:text="10 - Settings"
+                android:text="9 Settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:onClick="help"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin"
+                android:src="@drawable/help" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:text="10 Help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="click5"
+                android:layout_width="@dimen/icon_dim"
+                android:layout_height="@dimen/icon_dim"
+                android:layout_margin="@dimen/icon_margin" />
+            <TextView
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
-
-
 
 
 </LinearLayout>
